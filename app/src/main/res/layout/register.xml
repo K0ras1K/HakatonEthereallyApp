@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="131dp"
+        android:layout_height="67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="174dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="113dp"
+        android:src="@drawable/logo"
+        />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="62dp"
+        android:layout_height="96dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="112dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/icon"
+        />
+
+    <ImageButton
+        android:id="@+id/register_button"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="591dp"
+        android:background="@null"
+        android:elevation="4dp"
+        android:src="@drawable/button_register_accept"
+        />
+
+    <TextView
+        android:id="@+id/getting_sta"
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp"
+        android:text="@string/getting_sta"
+        android:textAppearance="@style/getting_sta"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/create_an_a"
+        android:layout_width="257dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="260dp"
+        android:text="@string/create_an_a"
+        android:textAppearance="@style/create_an_a"
+        android:gravity="top"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_marginTop="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/number"
+            android:hint="Номер без +7"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textSize="20sp"
+
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/first_name"
+            android:hint="Имя"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/last_name"
+            android:hint="Фамилия"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:text=""
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

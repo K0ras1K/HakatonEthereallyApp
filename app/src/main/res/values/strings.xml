@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ethereally</string>
+    <string name="online_lear">Выбор за тобой!</string>
+    <string name="we_provide_">Вы сможете выбрать интересную вам тематику для изучения</string>
+    <string name="online_lear_1">Создавай своё будущее!</string>
+    <string name="we_provide_1">Работай в компаниях мечты сразу после окончания бакалавриата!</string>
+    <string name="online_lear_2">Учись у лучших!</string>
+    <string name="we_provide_2">Обменивайся опытом с ведущими профессионалами!</string>
+    <string name="skip">Skip</string>
+    <string name="let_s_you_i">Приступим</string>
+    <string name="getting_sta">Регистрация</string>
+    <string name="create_an_a">Создайте аккаунт для продолженя</string>
+    <string name="getting_login">Давайте войдём в аккаунт!</string>
+    <string name="create_an_a_login">Войдите в аккаунт для продолжения</string>
+</resources>
